@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf7;
+  --surface: #ffffff;
+  --surface-hover: #f4f3ef;
+  --foreground: #23211d;
+  --muted: #666257;
+  --accent: #0b6e5d;
+  --accent-hover: #095a4c;
+  --accent-secondary: #37507a;
+  --accent-secondary-hover: #2c405e;
+  --border: #e6e4dd;
+  --on-accent: #fdfdfc;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-hover: var(--surface-hover);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-secondary: var(--accent-secondary);
+  --color-accent-secondary-hover: var(--accent-secondary-hover);
+  --color-border: var(--border);
+  --color-on-accent: var(--on-accent);
+
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-source-serif);
+  --font-mono: var(--font-jetbrains-mono);
+
+  --container-content: 1140px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+p {
+  line-height: 1.7;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.focus-ring {
+  outline: none;
+}
+.focus-ring:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
