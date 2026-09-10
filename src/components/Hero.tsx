@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaGraduationCap } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGraduationCap, FaOrcid } from "react-icons/fa";
 import { site } from "@/data/site";
 import Container from "./Container";
 import FadeIn from "./FadeIn";
@@ -76,6 +76,15 @@ export default function Hero() {
               className="focus-ring text-muted transition-colors hover:text-accent"
             >
               <FaLinkedin size={19} />
+            </a>
+            <a
+              href={site.orcid}
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="ORCID"
+              className="focus-ring text-muted transition-colors hover:text-accent"
+            >
+              <FaOrcid size={19} />
             </a>
           </div>
         </FadeIn>

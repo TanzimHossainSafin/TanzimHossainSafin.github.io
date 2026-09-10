@@ -1,5 +1,5 @@
 import { Mail } from "lucide-react";
-import { FaGraduationCap, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGraduationCap, FaGithub, FaLinkedin, FaOrcid } from "react-icons/fa";
 import { site } from "@/data/site";
 import Container from "./Container";
 
@@ -49,6 +49,15 @@ export default function Footer() {
             className="focus-ring text-muted transition-colors hover:text-accent"
           >
             <FaGraduationCap size={18} />
+          </a>
+          <a
+            href={site.orcid}
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-label="ORCID"
+            className="focus-ring text-muted transition-colors hover:text-accent"
+          >
+            <FaOrcid size={18} />
           </a>
         </div>
 

@@ -1,5 +1,5 @@
 import { Mail, MapPin } from "lucide-react";
-import { FaGraduationCap, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGraduationCap, FaGithub, FaLinkedin, FaOrcid } from "react-icons/fa";
 import { site } from "@/data/site";
 import Container from "./Container";
 import SectionHeading from "./SectionHeading";
@@ -10,6 +10,7 @@ const contactLinks = [
   { icon: FaGithub, label: "GitHub", value: "TanzimHossainSafin", href: site.github },
   { icon: FaLinkedin, label: "LinkedIn", value: "tanzim-hossain-safin", href: site.linkedin },
   { icon: FaGraduationCap, label: "Google Scholar", value: "View profile", href: site.scholar },
+  { icon: FaOrcid, label: "ORCID", value: "0009-0005-2784-5630", href: site.orcid },
 ];
 
 export default function Contact() {

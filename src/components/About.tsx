@@ -25,6 +25,16 @@ export default function About() {
               ))}
             </ul>
 
+            <Link
+              href={site.cv}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="focus-ring mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-hover hover:underline"
+            >
+              <FileText size={14} />
+              Download CV (PDF)
+            </Link>
+
             <div className="mt-8 rounded-lg border border-border bg-surface p-5">
               <p className="font-mono text-[11px] tracking-widest text-muted uppercase">
                 Education

@@ -28,6 +28,14 @@ export default function Navbar() {
               {item.label}
             </Link>
           ))}
+          <a
+            href={site.cv}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="focus-ring rounded-md border border-border px-3.5 py-1.5 text-sm font-medium text-foreground transition-colors hover:bg-surface-hover"
+          >
+            CV
+          </a>
         </nav>
 
         <button
@@ -55,6 +63,17 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
+            <li>
+              <a
+                href={site.cv}
+                target="_blank"
+                rel="noreferrer noopener"
+                onClick={() => setOpen(false)}
+                className="focus-ring block text-base text-muted hover:text-foreground"
+              >
+                CV
+              </a>
+            </li>
           </ul>
         </nav>
       )}

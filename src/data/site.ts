@@ -16,6 +16,8 @@ export const site = {
   github: "https://github.com/TanzimHossainSafin",
   linkedin: "https://www.linkedin.com/in/tanzim-hossain-safin-20a60123b/",
   scholar: "https://scholar.google.com/citations?user=4nkHC-sAAAAJ&hl=en",
+  orcid: "https://orcid.org/0009-0005-2784-5630",
+  cv: "/documents/tanzim-hossain-safin-cv.pdf",
   about: {
     statement:
       "I am a Computer Science graduate from BRAC University focused on security and reliability in modern AI systems. My work sits at the intersection of AI security, LLMs, RAG, multi-agent systems, privacy, and software engineering.",
