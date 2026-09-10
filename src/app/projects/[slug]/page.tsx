@@ -85,7 +85,7 @@ export default async function ProjectDetailPage({
                 href={item.demo}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="focus-ring inline-flex items-center gap-2 rounded-md bg-accent-secondary px-4 py-2 text-sm font-medium text-on-accent shadow-sm transition-colors hover:bg-accent-secondary-hover"
+                className="focus-ring inline-flex items-center gap-2 rounded-md bg-accent-secondary px-4 py-2 text-sm font-medium text-on-accent transition-colors hover:bg-accent-secondary-hover"
               >
                 <ExternalLink size={15} />
                 Live Demo

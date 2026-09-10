@@ -37,7 +37,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link
               href="/research"
-              className="focus-ring inline-flex items-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-on-accent shadow-sm transition-colors hover:bg-accent-hover"
+              className="focus-ring inline-flex items-center rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-on-accent transition-colors hover:bg-accent-hover"
             >
               View Research
             </Link>
@@ -85,8 +85,8 @@ export default function Hero() {
             className="absolute inset-5 -z-10 rounded-full bg-accent/[0.08] blur-3xl"
             aria-hidden="true"
           />
-          <div className="rounded-2xl border border-border bg-surface p-2.5 shadow-sm">
-            <div className="aspect-[4/5] overflow-hidden rounded-xl bg-surface-hover">
+          <div className="rounded-lg border border-border bg-surface p-2.5">
+            <div className="aspect-[4/5] overflow-hidden rounded-lg bg-surface-hover">
               <Image
                 src="/images/profile.jpg"
                 alt="Portrait of Tanzim Hossain Safin"

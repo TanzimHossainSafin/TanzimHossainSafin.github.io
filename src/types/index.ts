@@ -3,6 +3,13 @@ export type ResearchFocusArea = {
   description: string;
 };
 
+export type NewsItem = {
+  date: string;
+  title: string;
+  description?: string;
+  href?: string;
+};
+
 export type SkillGroup = {
   category: string;
   items: string[];

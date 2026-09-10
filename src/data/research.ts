@@ -161,7 +161,7 @@ export const researchItems: ResearchItem[] = [
     slug: "trust-propagation-multi-agent-llm",
     title: "Trust Propagation and Structural Containment in Multi-Agent LLM Pipelines",
     type: "Research / Manuscript",
-    status: "Research / Manuscript",
+    status: "Accepted — IEEE CARS 2026 (Main Conference)",
     year: "2026",
     role: "Researcher",
     authors: ["Tanzim Hossain Safin", "Sharif Noor Zisad", "Ragib Hasan"],

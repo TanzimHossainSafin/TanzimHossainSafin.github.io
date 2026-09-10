@@ -7,7 +7,7 @@ export default function ProjectCard({ item }: { item: ProjectItem }) {
   return (
     <Link
       href={`/projects/${item.slug}`}
-      className="focus-ring group block rounded-xl border border-border bg-surface shadow-sm p-6 transition-colors hover:bg-surface-hover md:p-7"
+      className="focus-ring group block rounded-lg border border-border bg-surface p-6 transition-colors hover:bg-surface-hover md:p-7"
     >
       <div className="flex items-start justify-between gap-4">
         <p className="font-mono text-xs tracking-wide text-accent-secondary">{item.category}</p>

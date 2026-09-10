@@ -13,7 +13,7 @@ export default function PipelineDiagram({ agents }: { agents: PipelineAgent[] })
     <div className="flex flex-col gap-3 md:flex-row md:items-stretch md:gap-2">
       {agents.map((agent, i) => (
         <div key={agent.name} className="flex flex-1 items-center gap-2 md:items-stretch">
-          <div className="flex flex-1 flex-col rounded-lg border border-border bg-surface shadow-sm p-4">
+          <div className="flex flex-1 flex-col rounded-lg border border-border bg-surface p-4">
             <div className="flex items-center justify-between gap-2">
               <p className="font-heading text-sm font-medium text-foreground">{agent.name}</p>
               <span

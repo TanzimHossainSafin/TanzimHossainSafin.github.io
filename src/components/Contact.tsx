@@ -25,7 +25,7 @@ export default function Contact() {
               href={href}
               target={href.startsWith("mailto:") ? undefined : "_blank"}
               rel={href.startsWith("mailto:") ? undefined : "noreferrer noopener"}
-              className="focus-ring flex items-center gap-4 rounded-lg border border-border bg-surface shadow-sm p-5 transition-colors hover:bg-surface-hover"
+              className="focus-ring flex items-center gap-4 rounded-lg border border-border bg-surface p-5 transition-colors hover:bg-surface-hover"
             >
               <Icon size={18} className="shrink-0 text-accent" />
               <div>

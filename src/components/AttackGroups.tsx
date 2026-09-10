@@ -4,7 +4,7 @@ export default function AttackGroups({ groups }: { groups: AttackGroup[] }) {
   return (
     <div className="grid gap-4 md:grid-cols-3">
       {groups.map((group) => (
-        <div key={group.group} className="rounded-lg border border-border bg-surface shadow-sm p-5">
+        <div key={group.group} className="rounded-lg border border-border bg-surface p-5">
           <p className="font-mono text-xs tracking-widest text-accent uppercase">
             {group.group}
           </p>

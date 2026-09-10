@@ -60,6 +60,7 @@ export const site = {
   ],
   navItems: [
     { label: "Home", href: "/" },
+    { label: "News", href: "/#news" },
     { label: "Research", href: "/research" },
     { label: "Projects", href: "/projects" },
     { label: "About", href: "/about" },

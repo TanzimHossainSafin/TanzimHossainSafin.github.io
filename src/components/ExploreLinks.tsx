@@ -40,7 +40,7 @@ export default function ExploreLinks() {
             <FadeIn key={href} delay={i * 0.05}>
               <Link
                 href={href}
-                className="focus-ring group flex h-full items-start gap-4 rounded-xl border border-border bg-surface shadow-sm p-6 transition-colors hover:bg-surface-hover"
+                className="focus-ring group flex h-full items-start gap-4 rounded-lg border border-border bg-surface p-6 transition-colors hover:bg-surface-hover"
               >
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-accent/10 text-accent">
                   <Icon size={19} />

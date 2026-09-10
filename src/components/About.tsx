@@ -25,7 +25,7 @@ export default function About() {
               ))}
             </ul>
 
-            <div className="mt-8 rounded-lg border border-border bg-surface shadow-sm p-5">
+            <div className="mt-8 rounded-lg border border-border bg-surface p-5">
               <p className="font-mono text-[11px] tracking-widest text-muted uppercase">
                 Education
               </p>

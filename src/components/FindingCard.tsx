@@ -3,7 +3,7 @@ import { Finding } from "@/types";
 export default function FindingCard({ finding }: { finding: Finding }) {
   return (
     <div
-      className={`rounded-lg border p-5 shadow-sm ${
+      className={`rounded-lg border p-5 ${
         finding.highlight ? "border-accent/40 bg-accent/[0.06]" : "border-border bg-surface"
       }`}
     >

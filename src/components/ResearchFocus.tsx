@@ -16,7 +16,7 @@ export default function ResearchFocus() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {researchFocusAreas.map((area, i) => (
             <FadeIn key={area.title} delay={i * 0.05}>
-              <div className="h-full rounded-xl border border-border bg-surface shadow-sm p-5">
+              <div className="h-full rounded-lg border border-border bg-surface p-5">
                 <p className="font-mono text-xs text-accent/70">{String(i + 1).padStart(2, "0")}</p>
                 <p className="mt-2 font-heading text-base font-medium text-foreground">
                   {area.title}

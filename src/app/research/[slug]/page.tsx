@@ -138,7 +138,7 @@ export default async function ResearchDetailPage({
           <Section title="Defenses">
             <div className="grid gap-4 sm:grid-cols-2">
               {item.defenses.map((d) => (
-                <div key={d.title} className="rounded-lg border border-border bg-surface shadow-sm p-4">
+                <div key={d.title} className="rounded-lg border border-border bg-surface p-4">
                   <p className="text-sm font-medium text-foreground">{d.title}</p>
                   <p className="mt-1.5 text-sm leading-relaxed text-muted">{d.description}</p>
                 </div>
@@ -198,7 +198,7 @@ export default async function ResearchDetailPage({
         </div>
 
         <aside className="h-fit space-y-6 md:sticky md:top-24">
-          <div className="rounded-lg border border-border bg-surface shadow-sm p-5">
+          <div className="rounded-lg border border-border bg-surface p-5">
             <p className="font-mono text-[11px] tracking-widest text-muted uppercase">Status</p>
             <p className="mt-2 text-sm text-foreground">{item.status}</p>
 
@@ -247,7 +247,7 @@ export default async function ResearchDetailPage({
           </div>
 
           {(item.resources.pdf || item.resources.github || item.resources.scholar) && (
-            <div className="rounded-lg border border-border bg-surface shadow-sm p-5">
+            <div className="rounded-lg border border-border bg-surface p-5">
               <p className="font-mono text-[11px] tracking-widest text-muted uppercase">
                 Resources
               </p>
