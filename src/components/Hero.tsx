@@ -107,6 +107,9 @@ export default function Hero() {
               />
             </div>
           </div>
+          <p className="mt-3 text-center font-mono text-xs text-muted md:text-left">
+            tanzimhossainsafin [at] gmail [dot] com
+          </p>
         </FadeIn>
       </Container>
     </section>
